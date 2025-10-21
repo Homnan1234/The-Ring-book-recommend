@@ -1,0 +1,55 @@
+.box {
+    display: flex;
+    flex-direction: column;   /* จัดเรียงแนวตั้ง */
+    justify-content: center; /* จัดกึ่งกลางแนวตั้ง */
+    align-items: center; 
+   padding-bottom: 50px;   /* จัดกึ่งกลางแนวนอน */
+   padding-top: 70px;
+   }
+
+body{background-color: rgba(0, 0, 0, 0.77);
+color: aliceblue}
+
+.bg-red {background-color: rgb(166, 13, 13);}
+.bg-white {background-color: rgb(206, 185, 185);}
+.bg-grey {background-color: #0b0808dd;
+margin: 0%;}
+
+.front-white {color: aliceblue; }
+
+.bg-dark .nav-link {color: aliceblue!important;}
+
+ .sriracha {
+      font-family: 'Sriracha', cursive; /* ใช้ฟอนต์ Sriracha */
+      font-weight: 400;                 /* Regular 400 */
+      color: rgb(166, 13, 13);
+      font-size: 50px;
+    }
+
+.chonburi {
+      font-family: 'Chonburi', cursive;  /* ใช้ฟอนต์ Chonburi */
+      font-weight: 400;                /* Regular 400 */
+      font-size: 30px;
+   
+    }
+
+  .blueviolent {color: rgb(166, 13, 13);}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* เสริมให้มีขอบปุ่มขาว */
+.navbar-dark .navbar-toggler {
+  border-color: rgba(255,255,255,0.8);
+}
+
+.icon {
+  width: 30px;        /* ขนาดรูปไอคอน */
+  height: auto;
+  vertical-align: middle;
+}
+
+.shadow-img {
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.9); /* เงาดำโปร่งใส */
+}
