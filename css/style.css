@@ -8,7 +8,10 @@
    }
 
 body{background-color: rgba(0, 0, 0, 0.77);
-color: aliceblue}
+color: aliceblue;
+ font-family: 'Itim', cursive, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 400;        /* ระบุ weight 400 */
+      font-size: 17px;         /* ปรับขนาดพื้นฐาน (ปรับตามต้องการ) */}
 
 .bg-red {background-color: rgb(166, 13, 13);}
 .bg-white {background-color: rgb(206, 185, 185);}
@@ -53,3 +56,34 @@ margin: 0%;}
 .shadow-img {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.9); /* เงาดำโปร่งใส */
 }
+
+.card-dark {
+  background-color: #910f0f; /* สีพื้นของกล่อง */
+  border: 1px solid #b0b0b0; /* เส้นขอบเทา */
+  border-radius: 10px; /* มุมโค้ง */
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: aliceblue;
+}
+
+.card-dark:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+.rounded-img {
+  border-radius: 16px;   /* มุมโค้งนุ่มนวล */
+}
+
+  #carouselExample {
+    max-width: 90%;  /* ความกว้างสูงสุด */
+    height: 70%;     /* ความสูงคงที่ */
+    margin: 0 auto;    /* จัดให้อยู่กึ่งกลางหน้า */
+  }
+
+  /* ทำให้ภาพปรับขนาดตาม carousel */
+  #carouselExample .carousel-item img {
+    width: 90%;
+    height: 70%;
+    object-fit: cover;  /* ปรับภาพให้เต็มพื้นที่โดยไม่บิดสัดส่วน */
+   
+  }
